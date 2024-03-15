@@ -186,6 +186,31 @@ body::before {
         box-sizing: border-box;
         transform: translateX(-50%);
     }
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/76fcd07f-b171-49c7-8a77-6177ad5a6122/BR-pt-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        background-image: cover;
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    body::before {
+        content: '';
+        background-color: rgb(0, 0, 0, .5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
     
     
     
